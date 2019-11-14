@@ -18,7 +18,7 @@ from HW11_Vikas_Bhat import StevensRepository
 class TestStevensRepository(unittest.TestCase):
 
     def test_repo(self):
-        dir_path = '/Users/vikasbhat/Documents/SSW 810'
+        dir_path = '/Users/vikasbhat/Documents/SSW810'
         stevens = StevensRepository(dir_path)
 
         self.assertEqual(stevens._dir_path, dir_path)
@@ -106,7 +106,7 @@ class TestStevensRepository(unittest.TestCase):
         }
 
         instructors1 = dict()
-        db_path = '/Users/vikasbhat/Documents/SSW 810/810_startup.db'
+        db_path = '/Users/vikasbhat/Documents/SSW810/810_startup.db'
         stevens_db = sqlite3.connect(db_path)
 
         query = """select CWID, Name, Dept, Course, count(Course)

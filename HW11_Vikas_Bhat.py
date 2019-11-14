@@ -265,7 +265,7 @@ class Major:
 
 
 def main():
-    StevensRepository('/Users/vikasbhat/Documents/SSW 810')
+    StevensRepository('/Users/vikasbhat/Documents/SSW810')
 
 
 if __name__ == '__main__':
